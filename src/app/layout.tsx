@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import './globals.css';
-import { Header } from './_components/layout/header';
-import { LayoutRoot } from './_components/layout/layout-root';
-import { Footer } from './_components/layout/footer';
+import { Header } from '@/components/layout/header';
+import { LayoutRoot } from '@/components/layout/layout-root';
+import { Footer } from '@/components/layout/footer';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
