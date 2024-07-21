@@ -1,7 +1,9 @@
 import { CarouselSection } from '@/components/home/carousel-section';
 import { HeroSection } from '@/components/home/hero-section';
 import { ReactIDLogo } from '@/components/icons/reactjs-id';
+import { NetworkingSection } from '@/components/home/networking-section';
 import { heroPhotos } from './_data/hero-photos';
+import { fakerEvents } from './_data/faker-events';
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
         </div>
       </HeroSection>
       <CarouselSection heroPhotos={heroPhotos} />
+      <NetworkingSection events={fakerEvents} />
     </>
   );
 }
