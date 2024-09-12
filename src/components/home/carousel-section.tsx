@@ -6,7 +6,7 @@ export interface CarouselSectionProps {
 
 export function CarouselSection({ heroPhotos }: CarouselSectionProps) {
   return (
-    <section className="w-full overflow-y-hidden overflow-x-scroll">
+    <section className="w-full overflow-y-hidden overflow-x-scroll scrollbar-hidden">
       <ul className="-mx-20 flex justify-between xs:gap-2 lg:gap-8">
         {heroPhotos.map((photo, index) => (
           <li key={photo.slug} className={`h-auto py-3 ${index % 2 === 0 ? '-rotate-3' : 'rotate-3'}`}>
