@@ -4,6 +4,7 @@ import { ReactIDLogo } from '@/components/icons/reactjs-id';
 import { NetworkingSection } from '@/components/home/networking-section';
 import { heroPhotos } from './_data/hero-photos';
 import { fakerEvents } from './_data/faker-events';
+import { CollaborationSection } from '@/components/home/collaboration-section';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       </HeroSection>
       <CarouselSection heroPhotos={heroPhotos} />
       <NetworkingSection events={fakerEvents} />
+      <CollaborationSection />
     </>
   );
 }
